@@ -1,9 +1,9 @@
-## Product Listing Application
+# Product Listing Application
 
 ## Project Description
 This project is a responsive and dynamic product listing application built with Next.js. It features fetching product data from an API, sorting, searching, and displaying the products in an interactive and visually appealing way. The application showcases creativity and attention to detail through its design and functionality.
 
-# Installation Instructions
+## Installation Instructions
 Prerequisites
 Node.js (>= 12.x)
 npm (>= 6.x)
@@ -26,15 +26,14 @@ Copy code
 npm run dev
 Open http://localhost:3000 to view it in your browser.
 
-# Build for production
+## Build for production
 
 bash
-Copy code
 npm run build
+
 Start the production server
 
 bash
-Copy code
 npm start
 
 ## Features
@@ -45,7 +44,7 @@ Search: Enables searching for products by name.
 Animations: Smooth animations using Framer Motion.
 Error Handling: Gracefully handles loading and error states.
 
-# Deployment
+## Deployment
 The application is deployed on Vercel. You can access it at the following link:
 
 Product Listing Application on Vercel
@@ -55,24 +54,24 @@ Home Page
 
 Sorting and Search
 
-Getting Started
-Project Structure
-plaintext
-Copy code
+# Getting Started
+
+## Project Structure
+
 /components
-  └── Header.js
-  └── ProductCard.js
-  └── ProductList.js
-  └── SortFilter.js
-/services
-  └── productService.js
-/styles
-  └── Home.module.css
-  └── globals.css
-  └── ProductCard.module.css
-  └── ProductList.module.css
-/pages
-  └── index.js
+  └── Header.js <br />
+  └── ProductCard.js <br />
+  └── ProductList.js <br />
+  └── SortFilter.js <br />
+/services <br />
+  └── productService.js <br />
+/styles <br />
+  └── Home.module.css <br />
+  └── globals.css <br />
+  └── ProductCard.module.css <br />
+  └── ProductList.module.css <br />
+/pages <br />
+  └── index.js <br />
 
 ## Code Examples
 
