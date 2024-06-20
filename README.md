@@ -13,8 +13,8 @@ Clone the repository
 
 bash <br />
 
-git clone <your-github-repo-url>
-cd my-product-list
+git clone [https://github.com/Woldreamz/Product-list.git] <br />
+cd my-product-list <br />
 
 ### Install dependencies
 
