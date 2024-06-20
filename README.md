@@ -5,30 +5,34 @@ This project is a responsive and dynamic product listing application built with 
 
 ## Installation Instructions
 Prerequisites
-Node.js (>= 12.x)
-npm (>= 6.x)
-Steps
+Node.js 
+npm 
+
+### Steps
 Clone the repository
 
-bash
-Copy code
+bash <br />
+
 git clone <your-github-repo-url>
 cd my-product-list
-Install dependencies
+
+### Install dependencies
+
+bash <br />
+
+npm install <br />
+
+### Run the development server
+
+bash <br />
+
+npm run dev <br />
+Open http://localhost:3000 to view it in your browser. <br />
+
+### Build for production
 
 bash
-Copy code
-npm install
-Run the development server
 
-bash
-Copy code
-npm run dev
-Open http://localhost:3000 to view it in your browser.
-
-## Build for production
-
-bash
 npm run build
 
 Start the production server
@@ -58,7 +62,7 @@ Sorting and Search
 
 ## Project Structure
 
-/components
+/components <br />
   └── Header.js <br />
   └── ProductCard.js <br />
   └── ProductList.js <br />
