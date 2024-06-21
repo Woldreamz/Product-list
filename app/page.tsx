@@ -3,6 +3,7 @@
 import Header from '../components/Header';
 import ProductList from '../components/ProductList';
 import SortFilter from '../components/SortFilter';
+import Footer from '../components/Footer';
 import { useState, useEffect } from 'react';
 import { fetchProducts } from '../services/productService';
 
@@ -63,6 +64,7 @@ const Home = () => {
       <Header />
       <SortFilter handleSort={handleSort} sortType={sortType} handleSearch={handleSearch} />
       <ProductList products={filteredProducts} />
+      <Footer />
     </div>
   );
 }
