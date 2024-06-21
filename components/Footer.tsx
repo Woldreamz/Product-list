@@ -2,11 +2,14 @@
 
 // Importing necessary icons from react-icons library
 import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
+import Image from 'next/image';
 
 // Footer component definition
 const Footer = () => (
   <footer className="bg-gray-800 text-white py-4 mt-8 font-poppins">
     <div className="container mx-auto text-center">
+      {/* Logo image */}
+      <Image src="/assets/logo1.png" alt="Logo" width={150} height={150} />
       {/* Footer text including the current year */}
       <p>&copy; {new Date().getFullYear()} Product List. All rights reserved.</p>
       {/* Social media icons with links */}
