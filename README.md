@@ -11,33 +11,24 @@ npm
 ### Steps
 Clone the repository
 
-bash <br />
-
 git clone [https://github.com/Woldreamz/Product-list.git] <br />
 cd my-product-list <br />
 
 ### Install dependencies
 
-bash <br />
-
 npm install <br />
 
 ### Run the development server
-
-bash <br />
 
 npm run dev <br />
 Open http://localhost:3000 to view it in your browser. <br />
 
 ### Build for production
 
-bash
-
-npm run build
+npm run build <br />
 
 Start the production server
 
-bash
 npm start
 
 ## Features
