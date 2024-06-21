@@ -16,9 +16,9 @@ const Header = () => {
 
   return (
     <header className="text-center my-4 font-poppins">
-      <div className="flex justify-between items-center px-4">
+      <div className="flex flex-col justify-between items-center md:flex-row md:justify-between px-4 ">
         {/* Logo image */}
-        <Image src="/assets/logo1.png" alt="Logo" width={150} height={150} />
+        <Image src="/assets/logo1.png" alt="Logo" width={100} height={100} />
         <h1 className="text-3xl font-bold">Product List</h1>
         {/* Menu toggle button */}
         <button
