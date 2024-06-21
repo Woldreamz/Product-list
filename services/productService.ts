@@ -10,6 +10,7 @@ interface Product {
 
 const API_URL = 'https://dummyjson.com/products';
 
+// Function to fetch products from the API
 export const fetchProducts = async (): Promise<Product[]> => {
   const response = await axios.get(API_URL);
   return response.data.products;

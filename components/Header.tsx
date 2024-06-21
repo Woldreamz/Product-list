@@ -1,5 +1,6 @@
 "use client";
 
+// Import necessary hooks and components
 import { useState } from 'react';
 import Image from 'next/image';
 
@@ -16,17 +17,19 @@ const Header = () => {
   return (
     <header className="text-center my-4">
       <div className="flex justify-between items-center px-4">
+        {/* Logo image */}
         <Image src="/assets/logo1.png" alt="Logo" width={100} height={100} />
         <h1 className="text-3xl font-bold">Product List</h1>
+        {/* Menu toggle button */}
         <button
-          className="p-2 bg-blue-500 text-white rounded-xl"
+          className="p-2 bg-blue-500 text-white rounded"
           onClick={toggleMenu}
         >
           {menuOpen ? 'Close Menu' : 'Open Menu'}
         </button>
       </div>
       {menuOpen && (
-        <nav className="mt-4">
+        <nav className="mt-4 p-4 bg-white shadow-lg rounded-lg">
           <ul className="flex flex-col items-center space-y-2">
             {['Home', 'Products', 'Contact'].map((item) => (
               <li
