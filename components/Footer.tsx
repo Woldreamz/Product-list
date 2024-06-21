@@ -5,7 +5,7 @@ import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
 
 // Footer component definition
 const Footer = () => (
-  <footer className="bg-gray-800 text-white py-4 mt-8">
+  <footer className="bg-gray-800 text-white py-4 mt-8 font-poppins">
     <div className="container mx-auto text-center">
       {/* Footer text including the current year */}
       <p>&copy; {new Date().getFullYear()} Product List. All rights reserved.</p>

@@ -32,10 +32,10 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => (
       height={100}
     />
     <div className="text-center">
-      <h2 className="text-xl font-bold mb-2">{product.title}</h2>
-      <p className="text-lg font-extrabold text-blue-600 mb-2">${product.price}</p>
-      <p className="text-gray-600 mb-4">{product.description}</p>
-      <button className="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition duration-300">
+      <h2 className="text-xl font-bold mb-2 font-poppins">{product.title}</h2>
+      <p className="text-lg font-extrabold text-blue-600 mb-2 font-poppins">${product.price}</p>
+      <p className="text-gray-600 mb-4 font-poppins">{product.description}</p>
+      <button className="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition duration-300 font-poppins">
         Add to Cart
       </button>
     </div>

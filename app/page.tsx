@@ -16,12 +16,14 @@ interface Product {
 }
 
 const Home = () => {
+  // State hooks to manage products, sorting type, and search query
   const [products, setProducts] = useState<Product[]>([]);
   const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
   const [sortType, setSortType] = useState('default');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
+  // Fetch products from the API on component mount
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -38,6 +40,7 @@ const Home = () => {
     fetchData();
   }, []);
 
+  // Handle sorting products
   const handleSort = (type: string) => {
     setSortType(type);
     let sortedProducts = [...filteredProducts];

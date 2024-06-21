@@ -15,7 +15,7 @@ const Header = () => {
   };
 
   return (
-    <header className="text-center my-4">
+    <header className="text-center my-4 font-poppins">
       <div className="flex justify-between items-center px-4">
         {/* Logo image */}
         <Image src="/assets/logo1.png" alt="Logo" width={100} height={100} />
